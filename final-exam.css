@@ -16,15 +16,24 @@ a {
 h3 {
   font-weight: normal;
   font-family: Georgia;
+  padding-bottom: 2px;
 }
 h1 {
   font-family: Georgia;
 }
 h2{
   font-family: Georgia;
+  margin-top: none;
+  font-size: 24px;
+  font-style: italic;
 }
 @media (max-width: 500px) {
   .column {
     width: 100%;
   }
+}
+.border {
+  border-bottom: 5px solid #E8E8E8;
+  padding-bottom: 35px;
+  padding-top: 20px;
 }
